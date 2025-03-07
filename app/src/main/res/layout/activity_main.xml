@@ -6,6 +6,23 @@
     android:orientation="vertical"
     tools:context=".ui.main.MainActivity">
 
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="@color/yellow"
+        android:gravity="end"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/itemLogin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/yellow"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_person"/>
+    </LinearLayout>
     <FrameLayout
         android:id="@+id/main_fragment_placeholder"
         android:layout_width="match_parent"

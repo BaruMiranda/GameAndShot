@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.barcod.juegabebe.databinding.FragmentYoNuncaNuncaBinding
+import com.barcod.juegabebe.ui.main.MainActivity
 
 
 class YoNuncaNuncaFragment : Fragment() {
@@ -27,7 +28,7 @@ class YoNuncaNuncaFragment : Fragment() {
     }
 
     private fun confIU() {
-
+        (activity as MainActivity?)!!.mToolbar(value = false)
     }
 
 }

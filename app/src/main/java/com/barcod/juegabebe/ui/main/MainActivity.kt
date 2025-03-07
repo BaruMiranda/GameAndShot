@@ -3,6 +3,7 @@ package com.barcod.juegabebe.ui.main
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.barcod.juegabebe.databinding.ActivityMainBinding
@@ -81,5 +82,9 @@ class MainActivity : AppCompatActivity(), FragmentService {
     override fun verToditoFragment() {
         val showFragment: ToditoFragment = ToditoFragment().newInstance()
         showFragment(showFragment)
+    }
+
+    fun mToolbar(value: Boolean) {
+        binding.toolbar.visibility = if (value) View.VISIBLE else View.GONE
     }
 }

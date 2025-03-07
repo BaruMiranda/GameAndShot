@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/o"/>
+            android:background="@drawable/d"/>
         <ImageView
             android:id="@+id/ivCardD"
             android:layout_width="match_parent"
@@ -34,7 +34,7 @@
       <View
           android:layout_width="match_parent"
           android:layout_height="20dp"
-          android:background="@color/red"/>
+          android:background="@color/lead"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:background="@color/red"/>
+        android:background="@color/lead"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/o"/>
+            android:background="@drawable/d"/>
     </LinearLayout>
 
 </LinearLayout>

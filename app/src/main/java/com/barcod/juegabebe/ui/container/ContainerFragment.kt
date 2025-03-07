@@ -51,7 +51,7 @@ class ContainerFragment : Fragment() {
     }
 
     private fun confIU() {
-
+        (activity as MainActivity?)!!.mToolbar(value = true)
         categoryViewModel.getCategory()
 
         binding.cardTodito.setOnClickListener {
@@ -78,6 +78,11 @@ class ContainerFragment : Fragment() {
             (activity as MainActivity?)!!.verYoNuncaNuncaFragment()
         }
 
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        (activity as MainActivity?)!!.mToolbar(value = false)
     }
 
 }

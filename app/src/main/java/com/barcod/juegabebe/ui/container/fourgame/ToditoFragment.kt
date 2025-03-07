@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.barcod.juegabebe.databinding.FragmentToditoBinding
 import com.barcod.juegabebe.data.model.CardModel
+import com.barcod.juegabebe.ui.main.MainActivity
 
 
 class ToditoFragment : Fragment() {
@@ -32,6 +33,7 @@ class ToditoFragment : Fragment() {
     }
 
     private fun confIU() {
+        (activity as MainActivity?)!!.mToolbar(value = false)
 
         binding.recyclerView.layoutManager = GridLayoutManager(requireContext(), 3)
 

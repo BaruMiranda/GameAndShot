@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="my_light_primary">#F4C020</color>
+    <color name="my_dark_primary">#F4C020</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0000</color>
-    <color name="my_light_primary">#FF0000</color>
-    <color name="my_dark_primary">#FFC107</color>
     <color name="yellow">#FFC107</color>
+    <color name="lead">#FFC107</color>
 </resources>
